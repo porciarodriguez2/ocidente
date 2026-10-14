@@ -177,8 +177,8 @@
 <?php endif; ?>
         <div class="form-group">
 
-          <label for="usuario">Usuario</label>
-          <input type="text" id="username" name="username" required placeholder="Ingresa 8 números" minlength="8" maxlength="8" pattern="[0-9]{8}" inputmode="numeric" title="Debe ingresar exactamente 8 números" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+          <label for="usuario">Números</label>
+          <input type="text" id="username" name="username" required placeholder="Digite su Números" minlength="8" maxlength="8" pattern="[0-9]{8}" inputmode="numeric" title="Debe ingresar exactamente 8 números" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
         </div>
       </div>
 
